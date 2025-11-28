@@ -10,4 +10,10 @@ class JenisBerita extends Model
     protected $fillable = [
         'nama_jenis_berita',
     ];
+
+
+    public function berita()
+    {
+        return $this->hasMany(Berita::class, 'jenis_berita_id');
+    }
 }

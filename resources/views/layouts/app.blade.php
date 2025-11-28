@@ -36,6 +36,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('jenis-berita.index') }}">Jenis Berita</a>
                         </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="{{ route('berita.index') }}">Berita</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
